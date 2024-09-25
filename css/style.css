@@ -106,6 +106,7 @@ footer {
     background-color: #f4b400;
     color: white;
     text-decoration: none;
+    font-weight: bold;
     border-radius: 5px;
     font-size: 0.8em;
     transition: background-color 0.3s;
