@@ -1,0 +1,117 @@
+\documentclass[11pt,a4paper,sans]{moderncv} 
+
+% --- ESTILO Y COLOR ---
+\moderncvstyle{banking} 
+\moderncvcolor{burgundy} 
+
+% --- CORRECCIÓN DE MÁRGENES (Elimina el warning de geometry) ---
+% Definimos márgenes explícitos en lugar de usar 'scale' junto con 'top/bottom'
+\usepackage[top=1.5cm, bottom=1.5cm, left=1.8cm, right=1.8cm]{geometry}
+
+% --- CORRECCIÓN DE FUENTES (Compatible con pdflatex) ---
+\usepackage[utf8]{inputenc} % Codificación de caracteres
+\usepackage[T1]{fontenc}    % Codificación de fuentes
+\usepackage{lmodern}        % Fuentes vectoriales de alta calidad
+
+% --- COLORES PERSONALIZADOS ---
+\definecolor{color1}{RGB}{20, 50, 90} % Azul Midnight Blue
+\definecolor{color2}{RGB}{80, 80, 80} % Gris oscuro
+
+% --- MEJORA DE LISTAS ---
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*, nosep, itemsep=2pt, topsep=2pt}
+
+% --- INFORMACIÓN PERSONAL ---
+\name{Jesús Manuel}{Domínguez Tristancho}
+\title{Ingeniero de Software}
+\address{Sevilla, España}
+\phone[mobile]{+34 695 38 18 63}
+\email{jesdomtri@gmail.com}
+
+% Ajuste de enlaces
+\social[linkedin][www.linkedin.com/in/jesús-manuel-domínguez-tristancho-4375541b4]{/in/jesus-manuel-dominguez}
+\social[github]{jesdomtri}
+\homepage{jesdomtri.github.io}
+
+% --- INICIO DEL DOCUMENTO ---
+\begin{document}
+
+\makecvtitle
+
+\vspace*{-1.5em}
+
+% --- RESUMEN ---
+\section{Perfil Profesional}
+\cvitem{}{
+Ingeniero de software apasionado por el desarrollo de soluciones innovadoras y eficientes. Especializado en el ecosistema .NET y arquitecturas escalables en la nube. Me encuentro cómodo trabajando con metodologías ágiles, participando en la definición de arquitectura y liderando técnicamente en equipos multidisciplinares. Creativo, autodidacta y enfocado en la mejora continua de la productividad empresarial.
+}
+
+% --- HABILIDADES ---
+\section{Stack Tecnológico}
+\begin{center}
+    \begin{tabular}{p{0.2\textwidth} p{0.75\textwidth}}
+        \textbf{Lenguajes:} & C\#, TypeScript, JavaScript, Java, SQL, Python \\
+        \textbf{Frameworks:} & .NET 6-9, .NET Core, ASP.NET, Angular 14+ \\
+        \textbf{Base de Datos:} & MongoDB, PostgreSQL, SQL Server, MySQL \\
+        \textbf{Cloud \& DevOps:} & Azure DevOps, Docker, CI/CD Pipelines, Git \\
+        \textbf{Otros:} & Arquitectura de Software, Metodologías Ágiles, HTML5/CSS3 \\
+    \end{tabular}
+\end{center}
+
+% --- EXPERIENCIA ---
+\section{Experiencia Laboral}
+
+\cventry{Nov 2024 -- Presente}{Ingeniero de Software}{CTT Express}{Sevilla (Híbrido)}{}{
+    \textit{Desarrollo de soluciones logísticas internas.}
+    \begin{itemize}
+        \item Diseño e implementación de microservicios y APIs RESTful.
+        \item \textbf{Stack:} .NET 6-9 (C\#), MongoDB.
+        \item \textbf{Infraestructura:} Azure DevOps, Docker.
+    \end{itemize}
+}
+
+\vspace*{0.2cm}
+
+\cventry{Oct 2021 -- Nov 2024}{Ingeniero de Software}{Viajes El Corte Inglés}{Sevilla}{}{
+    \textit{Proyecto internacional de gestión de reservas y sincronización global.}
+    \begin{itemize}
+        \item Desarrollo y mantenimiento de un ecosistema crítico, altamente escalable y resiliente.
+        \item Optimización de consultas y sincronización de datos entre múltiples grupos empresariales.
+        \item \textbf{Stack:} .NET Core 2.2-8 (C\#), Angular 14 (TypeScript), MongoDB, PostgreSQL, SQL Server.
+        \item \textbf{Infraestructura:} Azure DevOps, Docker, Kubernetes.
+    \end{itemize}
+}
+
+\vspace*{0.2cm}
+
+\cventry{Abr 2021 -- Oct 2021}{Ingeniero de Software}{NTT Data}{Sevilla}{}{
+    \textit{Proyecto para el Servicio Andaluz de Salud (SAS).}
+    \begin{itemize}
+        \item Gestión y visualización de resultados de pruebas médicas a gran escala.
+        \item \textbf{Stack:} .NET Framework 4.5 (C\#), SQL Server, T-SQL.
+    \end{itemize}
+}
+
+\vspace*{0.2cm}
+
+\cventry{Sep 2020 -- Abr 2021}{Ingeniero de Software}{Atrebo}{Sevilla}{}{
+    \textit{Desarrollo de ERP para infraestructuras de telecomunicaciones.}
+    \begin{itemize}
+        \item Mantenimiento evolutivo y correctivo de la plataforma.
+        \item \textbf{Stack:} .NET Framework 4.5 (C\#, ASP), SQL Server, JavaScript.
+    \end{itemize}
+}
+
+\vspace*{0.2cm}
+
+\cventry{Jun 2020 -- Ago 2020}{Prácticas de Ingeniería}{Guadalte!}{Sevilla}{}{
+    \begin{itemize}
+        \item Mantenimiento de bases de datos MySQL y desarrollo de aplicaciones web en Java.
+    \end{itemize}
+}
+
+% --- FORMACIÓN ---
+\section{Formación Académica}
+\cventry{2015 -- 2021}{Grado en Ingeniería Informática}{Universidad de Sevilla}{}{}{Especialidad en Ingeniería del Software.}
+
+\end{document}
